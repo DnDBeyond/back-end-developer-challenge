@@ -4,9 +4,9 @@ In this test we would like you to create an API that will manage a player charac
     - 10 points of bludgeoning damage
     - 5 points of piercing damage
     - 200 points of fire damage
-    - Heal
-    - Add temporary hit points
+- Heal
+- Add temporary hit points
 
-The Api should be built with ASP.net Core and run in docker. A json object representing the character has been provided to you below:
+The Api should be built with ASP.net Core and run in docker. You'll find the json that represents the character in this repo
 
 _I’ll leave this part to you, Jason. I think we should include damage resistances, weaknesses, and immunities._

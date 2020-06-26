@@ -1,5 +1,6 @@
 # DDB Back End Developer Challenge
 In this test we would like you to create an API that will manage a player character’s HP. Clients will need to be able to do the following:
+- Calculate and persist the hitpoint values while the api is running. 
 - Deal damage of different types (bludgeoning, fire, etc) while considering character resistences and immunities
 - Heal
 - Add temporary hit points

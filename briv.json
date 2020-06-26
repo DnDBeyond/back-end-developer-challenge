@@ -1,17 +1,24 @@
 {
   "name": "Briv",
   "level": 5,
-  "class": {
-    "id":1,
+  "classes": [
+    {
     "name":"fighter",
-    "hitdicevalue":10,
-  },
+    "hitDiceValue":10,
+    "classLevel":3
+    },
+    {
+      "name":"wizard",
+      "hitdicevalue":6,
+      "classLevel":2
+    }
+  ],
   "stats":{
     "strength":15,
     "dexterity":12,
     "constitution":14,
-    "intelligence":10,
-    "wisdom":13,
+    "intelligence":13,
+    "wisdom":10,
     "charisma":8
   },
   "items":[
@@ -22,6 +29,16 @@
         "affectedValue":"constitution",
         "value":2
       }
+    }
+  ],
+  "defenses":[
+    {
+      "type":"fire",
+      "defense":"immunity"
+    },
+    {
+      "type":"slashing",
+      "defense":"resistance"
     }
   ]
 }

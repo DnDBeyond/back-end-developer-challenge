@@ -15,7 +15,7 @@
     "charisma":8
   },
   "items":[
-    1:{
+    {
       "name":"Ioun Stone of Fortitude",
       "modifier":{
         "affectedObject":"stats",

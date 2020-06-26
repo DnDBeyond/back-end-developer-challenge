@@ -13,19 +13,3 @@ Temporary Hit Points are a special case of hitpoints that are added to the HP to
 When a character has resistance to a damage type they receive half damage from that type.
 
 When a character has immunity to a damage type they receive no damage from that type.
-
-----
-
-Damage Types
-- 1 Fire
-- 2 Cold
-- 3 Lightning
-- 4 Thunder
-- 5 Poison
-- 6 Acid
-- 7 Force
-- 8 Radiant
-- 9 Necrotic
-- 10 Piercing
-- 11 Slashing
-- 12 Bludgeoning

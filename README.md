@@ -11,18 +11,21 @@ HP are an abstract representation of a character's life total. In D&D a characte
 Temporary Hit Points are a special case of hitpoints that are added to the HP total and are always subtracted from first, and they cannot be healed. Temporary hit points are never additive they only take the higher value what exists or what is being "added".
 
 When a character has resistance to a damage type they receive half damage from that type.
+
 When a character has immunity to a damage type they receive no damage from that type.
 
+----
+
 Damage Types
-1 Fire
-2 Cold
-3 Lightning
-4 Thunder
-5 Poison
-6 Acid
-7 Force
-8 Radiant
-9 Necrotic
-10 Piercing
-11 Slashing
-12 Bludgeoning
+- 1 Fire
+- 2 Cold
+- 3 Lightning
+- 4 Thunder
+- 5 Poison
+- 6 Acid
+- 7 Force
+- 8 Radiant
+- 9 Necrotic
+- 10 Piercing
+- 11 Slashing
+- 12 Bludgeoning

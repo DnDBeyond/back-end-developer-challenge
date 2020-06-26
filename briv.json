@@ -1,3 +1,27 @@
 {
-  "name": "Briv"
+  "name": "Briv",
+  "level": 5,
+  "class": {
+    "id":1,
+    "name":"fighter",
+    "hitdicevalue":10,
+  },
+  "stats":{
+    "strength":15,
+    "dexterity":12,
+    "constitution":14,
+    "intelligence":10,
+    "wisdom":13,
+    "charisma":8
+  },
+  "items":[
+    1:{
+      "name":"Ioun Stone of Fortitude",
+      "modifier":{
+        "affectedObject":"stats",
+        "affectedValue":"constitution",
+        "value":2
+      }
+    }
+  ]
 }

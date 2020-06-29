@@ -13,3 +13,5 @@ Temporary Hit Points are a special case of hitpoints that are added to the HP to
 When a character has resistance to a damage type they receive half damage from that type.
 
 When a character has immunity to a damage type they receive no damage from that type.
+
+If you have questions please reach out. 

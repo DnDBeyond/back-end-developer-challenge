@@ -14,4 +14,4 @@ When a character has resistance to a damage type they receive half damage from t
 
 When a character has immunity to a damage type they receive no damage from that type.
 
-Feel free to fill in any gaps you may encounter as you see ift. However, if you have questions please reach out to your Fandom contact and we will get back to you.
+Feel free to fill in any gaps you may encounter as you see fit. However, if you have questions please reach out to your Fandom contact and we will get back to you.

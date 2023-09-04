@@ -1,16 +1,12 @@
 {
   "name": "Briv",
   "level": 5,
+  "hitPoints": 25,
   "classes": [
     {
     "name":"fighter",
     "hitDiceValue":10,
-    "classLevel":3
-    },
-    {
-      "name":"wizard",
-      "hitdicevalue":6,
-      "classLevel":2
+    "classLevel":5
     }
   ],
   "stats":{

@@ -61,3 +61,11 @@ Here is a list of possible damage types that can occur in Dungeons & Dragons (D&
 If you have any questions or require clarification, please reach out to your Wizards of the Coast contact, and we will provide prompt assistance.
 
 Good luck with the implementation!
+
+## Requirements to Build
+1. Go 1.21.1 or greater must be installed
+   - on macOS: `brew install go`
+2. SQLite3 must be installed
+   - on macOS: `brew install sqlite3`
+3. `CGO_ENABLED=1` must be set in the environment
+4. A gcc compiler must be installed

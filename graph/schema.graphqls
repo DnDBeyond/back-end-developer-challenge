@@ -1,0 +1,67 @@
+type Character {
+  id: ID!
+  name: String!
+  maxHitPoints: Int!
+  currentHitPoints: Int!
+  level: Int!
+  stats: Stats!
+  defenses: [DefenseType!]!
+}
+
+type Stats {
+  strength: Int!
+  dexterity: Int!
+  constitution: Int!
+  intelligence: Int!
+  wisdom: Int!
+  charisma: Int!
+}
+
+type Defense {
+  defenseType: DefenseType!
+  damageType: DamageType!
+}
+
+enum DefenseType {
+  IMMUNITY
+  RESISTANCE
+  VULNERABILITY
+}
+
+enum DamageType {
+  BLUDGEONING
+  PIERCING
+  SLASHING
+  FIRE
+  COLD
+  ACID
+  THUNDER
+  LIGHTNING
+  POISON
+  RADIANT
+  NECROTIC
+  PSYCHIC
+  FORCE
+}
+
+input DamageInput {
+  characterId: ID!
+  damageType: DamageType!
+  roll: Int!
+}
+
+input HealInput {
+  characterId: ID!
+  roll: Int!
+}
+
+type Query {
+  character(id: ID!): Character
+}
+
+type Mutation {
+  damageCharacter(input: DamageInput!): Character!
+  healCharacter(input: HealInput!): Character!
+  addTemporaryHitPoints(input: HealInput!): Character!
+}
+

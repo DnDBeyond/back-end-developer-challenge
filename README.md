@@ -22,7 +22,7 @@ This task focuses on creating an API for managing a player character's Hit Point
     > Imagine a player character named "Eldric" currently has 11 Hit Points (HP) and no temporary Hit Points. He finds a magical item that grants him an additional 10 HP during the next fight. When the attacker rolls a 19, Eldric will lose all 10 temporary Hit Points and 9 from his player HP.
 
 #### Implementation Details
-- Build the API using your preferred technology stack.
+- Build the API using either C# or NodeJS.
 - Ensure that character information, including HP, is initialized during the start of the application. Developers do not need to calculate HP; it is provided in the `briv.json` file.
 - Retrieve character information, including HP, from the `briv.json` file.
 

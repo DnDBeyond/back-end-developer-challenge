@@ -61,3 +61,39 @@ Here is a list of possible damage types that can occur in Dungeons & Dragons (D&
 If you have any questions or require clarification, please reach out to your Wizards of the Coast contact, and we will provide prompt assistance.
 
 Good luck with the implementation!
+
+### Usage
+
+To run the service
+
+Without Docker:
+```
+npm run
+```
+
+With docker
+```
+docker build -t dnd-hp-manager .
+docker run -p 3000:3000 dnd-hp-manager
+```
+
+Make API Calls using curl
+```
+curl -X POST http://localhost:3000/api/character/deal-damage -H "Content-Type: application/json" -d '{"damage": 15, "type": "piercing"}'
+
+curl -X POST http://localhost:3000/api/character/add-temporary-hit-points -H "Content-Type: application/json" -d '{"amount": 10}'
+
+curl -X POST http://localhost:3000/api/character/heal -H "Content-Type: application/json" -d '{"amount": 10}'
+```
+
+To run tests
+
+Without docker
+```
+npm test
+```
+
+With docker
+```
+docker run --rm dnd-hp-manager npm run test
+```

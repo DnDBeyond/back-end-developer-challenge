@@ -1,0 +1,29 @@
+{
+	"name": "dnd-challenge",
+	"version": "1.0.0",
+	"description": "### Overview This task focuses on creating an API for managing a player character's Hit Points (HP) within our game. The API will enable clients to perform various operations related to HP, including dealing damage of different types, considering character resistances and immunities, healing, and adding temporary Hit Points. The task requires building a service that interacts with HP data provided in the `briv.json` file and persists throughout the application's lifetime.",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"build": "tsc",
+		"test": "jest --config jest.config.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.20.3",
+		"express": "^4.21.2"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/jest": "^29.5.14",
+		"@types/node": "^22.13.1",
+		"@types/supertest": "^6.0.2",
+		"jest": "^29.7.0",
+		"supertest": "^7.0.0",
+		"ts-jest": "^29.2.5",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.3"
+	}
+}
